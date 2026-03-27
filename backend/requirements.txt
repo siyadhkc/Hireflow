@@ -1,0 +1,42 @@
+# Django and Extensions
+Django==6.0.3
+djangorestframework==3.17.0
+djangorestframework-simplejwt==5.5.1
+django-cors-headers==4.9.0
+django-filter==25.2
+django-channels==0.7.0
+
+# Database
+psycopg2-binary==2.9.11
+
+# Image Processing
+Pillow==12.1.1
+
+# Task Queue & Caching
+Celery==5.6.2
+Redis==7.3.0
+
+# HTTP Requests
+requests==2.32.5
+requests-oauthlib==2.0.0
+
+# Configuration Management
+python-decouple==3.8
+
+# JWT
+PyJWT==2.12.1
+
+# Date & Time
+python-dateutil==2.9.0.post0
+
+# Utilities
+asgiref==3.11.1
+sqlparse==0.5.5
+tzdata==2025.3
+certifi==2026.2.25
+charset-normalizer==3.4.6
+idna==3.11
+urllib3==2.6.3
+
+# Production Server (optional) - uncomment if needed
+# gunicorn==21.2.0
